@@ -113,5 +113,12 @@ viene junto a `IureProject.app`. En Claude Code: `claude mcp add iureproject -- 
 
 ## Si algo falla
 Archivo › Información › **Reportar un problema…** abre un reporte con la versión y el sistema ya
-escritos (no envía nada de tu plan). Si una sesión se cerró sin guardar, al volver a abrir
+escritos (no envía nada de tu plan). Adjunta el **registro de arranque**, que dice qué tarjeta
+gráfica se usó y si hubo errores: `%LOCALAPPDATA%\iureproject\arranque.log` en Windows,
+`~/.local/share/iureproject/arranque.log` en Linux y
+`~/Library/Application Support/iureproject/arranque.log` en macOS.
+
+Si la ventana se abre **en blanco**, es la tarjeta gráfica (pasa en máquinas virtuales): ábrela
+eligiendo otro motor de gráficos, p. ej. en PowerShell `$env:WGPU_BACKEND="dx12"; .\iureproject.exe`
+(o `vulkan`, `gl`). En Windows ya se usa DirectX 12 por omisión. Si una sesión se cerró sin guardar, al volver a abrir
 IureProject ofrece recuperar la copia automática.

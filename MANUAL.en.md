@@ -111,5 +111,12 @@ comes next to `IureProject.app`. In Claude Code: `claude mcp add iureproject -- 
 
 ## If something goes wrong
 File › Info › **Report a problem…** opens a report with the version and system already filled in
-(nothing from your plan is sent). If a session closed without saving, IureProject offers to
+(nothing from your plan is sent). Attach the **startup log**, which tells which graphics card was
+used and any errors: `%LOCALAPPDATA%\iureproject\arranque.log` on Windows,
+`~/.local/share/iureproject/arranque.log` on Linux and
+`~/Library/Application Support/iureproject/arranque.log` on macOS.
+
+If the window opens **blank**, it is the graphics card (it happens in virtual machines): open it
+with another graphics engine, e.g. in PowerShell `$env:WGPU_BACKEND="dx12"; .\iureproject.exe`
+(or `vulkan`, `gl`). Windows already uses DirectX 12 by default. If a session closed without saving, IureProject offers to
 recover the automatic copy when you open it again.
