@@ -10,10 +10,13 @@ compartirlos con quien lo use.
 - **Linux:** el `.deb` (Ubuntu, Debian y derivadas) o el `.rpm` (Fedora, openSUSE…) lo instala con
   su icono en el menú. El `.tar.gz` sirve en cualquier distribución: descomprímelo y abre
   `iureproject`.
-- **Windows 10/11:** descomprime el `.zip` y abre `iureproject.exe`. Si Windows avisa (la app aún no
-  está firmada): «Más información» › «Ejecutar de todas formas».
-- **macOS 11 o posterior:** descomprime el `.zip` y arrastra `IureProject.app` a Aplicaciones. La
-  primera vez: clic derecho › «Abrir» › «Abrir».
+- **Windows 10/11:** abre el instalador `.msi` y acepta el aviso de administrador: queda en el
+  menú Inicio, los archivos `.iurp` se abren con IureProject y `iureproject-cli` queda en el
+  `PATH`. Se desinstala desde Configuración › Aplicaciones. Para usarlo sin instalar, descomprime
+  el `.zip` y abre `iureproject.exe`. Si Windows avisa (la app aún no está firmada): «Más
+  información» › «Ejecutar de todas formas».
+- **macOS 11 o posterior:** abre el `.dmg` y arrastra `IureProject.app` a Aplicaciones (o
+  descomprime el `.zip`). La primera vez: clic derecho › «Abrir» › «Abrir».
 
 Descargas y notas de cada versión: <https://github.com/ellaguno/iureproject-releases/releases>.
 

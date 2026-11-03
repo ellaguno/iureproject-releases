@@ -12,8 +12,9 @@ Descarga la última versión en [Releases](../../releases). / Download the lates
 | Linux (Debian, Ubuntu…) | `iureproject_<versión>_amd64.deb` |
 | Linux (Fedora, openSUSE, RHEL…) | `iureproject-<versión>-1.x86_64.rpm` |
 | Linux (cualquiera / any) | `iureproject-<versión>-x86_64-linux.tar.gz` |
-| Windows 10/11 | `iureproject-<versión>-x86_64-windows.zip` |
-| macOS 11+ (Apple Silicon e Intel) | `iureproject-<versión>-macos-universal.zip` |
+| Windows 10/11 (instalador / installer) | `iureproject-<versión>-x86_64-windows.msi` |
+| Windows 10/11 (sin instalar / portable) | `iureproject-<versión>-x86_64-windows.zip` |
+| macOS 11+ (Apple Silicon e Intel) | `iureproject-<versión>-macos-universal.dmg` (o `.zip`) |
 
 Verifica la descarga / Verify the download: `sha256sum -c SHA256SUMS`.
 
