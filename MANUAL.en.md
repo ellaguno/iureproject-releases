@@ -10,7 +10,7 @@ who use it.
 - **Linux:** the `.deb` (Ubuntu, Debian and derivatives) or the `.rpm` (Fedora, openSUSE…) installs
   it with its menu icon. The `.tar.gz` works on any distribution: unpack it and open `iureproject`.
 - **Windows 10/11:** open the `.msi` installer and accept the administrator prompt: it adds
-  IureProject to the Start menu, opens `.iurp` files with it and puts `iureproject-cli` on the
+  IureProject to the Start menu and the desktop, opens `.iurp` files with it and puts `iureproject-cli` on the
   `PATH`. Uninstall it from Settings › Apps. To use it without installing, unzip the `.zip` and
   open `iureproject.exe`. If Windows warns you (the app is not signed yet): «More info» › «Run
   anyway».
