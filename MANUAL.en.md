@@ -107,8 +107,8 @@ Developer › Edit Config):
 }
 ```
 
-On Windows, use the full path to `iureproject-cli.exe` with double backslashes
-(`"C:\\Programs\\IureProject\\iureproject-cli.exe"`); on macOS, the `iureproject-cli` that
+On Windows, use the full path to `iureproject-cli.exe` with double backslashes (with the `.msi`
+installer, `"C:\\Program Files\\IureProject\\iureproject-cli.exe"`); on macOS, the `iureproject-cli` that
 comes next to `IureProject.app`. In Claude Code: `claude mcp add iureproject -- iureproject-cli mcp
 /path/plan.iurp`.
 

@@ -109,8 +109,8 @@ Desarrollador › Editar configuración):
 }
 ```
 
-En Windows, la ruta completa a `iureproject-cli.exe` con barras dobles
-(`"C:\\Programas\\IureProject\\iureproject-cli.exe"`); en macOS, la de `iureproject-cli`, que
+En Windows, la ruta completa a `iureproject-cli.exe` con barras dobles (con el instalador `.msi`,
+`"C:\\Program Files\\IureProject\\iureproject-cli.exe"`); en macOS, la de `iureproject-cli`, que
 viene junto a `IureProject.app`. En Claude Code: `claude mcp add iureproject -- iureproject-cli mcp
 /ruta/plan.iurp`.
 
