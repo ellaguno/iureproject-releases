@@ -49,7 +49,7 @@ Graph, Network Diagram, Calendar, Team Planner, Board (Kanban) and Sprints. Ctrl
 ribbon for more room.
 
 ## Microsoft Project files
-- **Open:** `.mpp` and `.mpt` templates (MS Project 2010 and later), MS Project XML (`.xml`) and
+- **Open:** `.mpp` files from MS Project 2007 on and `.mpt` templates from 2010 on, MS Project XML (`.xml`) and
   MPX. A template opens as a new, unnamed plan.
 - **Save for MS Project:** as MS Project XML; MS Project opens it with tasks, links, resources,
   calendars, baselines and progress. (Saving as `.mpp` is not available yet.)

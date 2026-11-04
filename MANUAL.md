@@ -51,7 +51,7 @@ Hoja de recursos, Gráfico de recursos, Diagrama de red, Calendario, Planificado
 Tablero (Kanban) y Sprints. Ctrl+F1 pliega la cinta para tener más espacio.
 
 ## Archivos de Microsoft Project
-- **Abrir:** `.mpp` y plantillas `.mpt` (de MS Project 2010 en adelante), MS Project XML (`.xml`) y
+- **Abrir:** `.mpp` de MS Project 2007 en adelante y plantillas `.mpt` de 2010 en adelante, MS Project XML (`.xml`) y
   MPX. Una plantilla se abre como plan nuevo sin nombre.
 - **Guardar para MS Project:** como MS Project XML; MS Project lo abre con tareas, vínculos,
   recursos, calendarios, líneas base y avance. (Guardar como `.mpp` todavía no está disponible.)
