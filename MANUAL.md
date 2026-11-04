@@ -109,7 +109,9 @@ Desarrollador › Editar configuración):
 }
 ```
 
-En Windows, la ruta completa a `iureproject-cli.exe` con barras dobles (con el instalador `.msi`,
+Si el archivo ya tiene otras claves (Claude Desktop guarda ahí sus preferencias), agrega
+`"mcpServers"` **dentro** de sus llaves, con una coma después de la clave anterior; dos objetos
+seguidos dan un error de lectura. En Windows, la ruta completa a `iureproject-cli.exe` con barras dobles (con el instalador `.msi`,
 `"C:\\Program Files\\IureProject\\iureproject-cli.exe"`); en macOS, la de `iureproject-cli`, que
 viene junto a `IureProject.app`. En Claude Code: `claude mcp add iureproject -- iureproject-cli mcp
 /ruta/plan.iurp`.

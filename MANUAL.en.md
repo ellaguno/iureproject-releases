@@ -107,7 +107,9 @@ Developer › Edit Config):
 }
 ```
 
-On Windows, use the full path to `iureproject-cli.exe` with double backslashes (with the `.msi`
+If the file already has other keys (Claude Desktop keeps its preferences there), add
+`"mcpServers"` **inside** its braces, with a comma after the previous key; two objects in a row
+fail to load. On Windows, use the full path to `iureproject-cli.exe` with double backslashes (with the `.msi`
 installer, `"C:\\Program Files\\IureProject\\iureproject-cli.exe"`); on macOS, the `iureproject-cli` that
 comes next to `IureProject.app`. In Claude Code: `claude mcp add iureproject -- iureproject-cli mcp
 /path/plan.iurp`.
