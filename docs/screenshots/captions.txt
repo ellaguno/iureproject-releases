@@ -1,0 +1,6 @@
+Diagrama de Gantt con tema oscuro
+Resumen del proyecto: avance, tareas atrasadas y próximos hitos
+Tablero de tareas por estado
+Calendario del proyecto
+Gráfico de recursos: asignación frente a capacidad
+Diagrama de red de tareas
